@@ -1,0 +1,8 @@
+vector_subproject_deps = \
+	softfloat \
+
+vector_hdrs = \
+  vector_extension.h \
+  vector_types.h \
+
+vector_c_srcs = \

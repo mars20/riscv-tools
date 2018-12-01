@@ -1,0 +1,11 @@
+prefix=@prefix@
+exec_prefix=@prefix@
+libdir=${prefix}/@libdir@
+includedir=${prefix}/@includedir@
+
+Name: riscv-vector
+Description: RISC-V vector library
+Version: git
+Libs: -Wl,-rpath,${libdir} -L${libdir} -lvector
+Cflags: -I${includedir}
+URL: http://riscv.org/download.html
