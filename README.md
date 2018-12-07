@@ -185,7 +185,6 @@ of resolving the references. Enter the newly-created riscv-tools directory and
 instruct Git to update its submodules. 
 
 	$ cd $TOP/riscv-tools
-	$ git submodule update --init --recursive
 
 To build GCC, we will need several other packages, including
 flex, bison, autotools, libmpc, libmpfr, and libgmp. Ubuntu distribution
@@ -418,8 +417,7 @@ of resolving the references. Enter the newly-created riscv-tools directory and
 instruct Git to update its submodules. 
 
 	$ cd $TOP/riscv-tools
-	$ git submodule update --init --recursive
-
+	
 To build GCC, we will need several other packages, including
 flex, bison, autotools, libmpc, libmpfr, and libgmp. Ubuntu distribution
 installations will require this command to be run. If you have not installed
