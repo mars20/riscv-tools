@@ -15,7 +15,6 @@ This repo provides guides and references:
 
 # <a name="quickstart"></a>Quickstart
 
-	$ git submodule update --init --recursive
 	$ export RISCV=/path/to/install/riscv/toolchain
 	$ ./build.sh
 
